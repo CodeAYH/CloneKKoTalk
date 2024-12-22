@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using KaKao.Forms.UI.Views;
+using System.Windows;
 
 namespace Kakao
 {
@@ -8,7 +9,8 @@ namespace Kakao
         {
             base.OnStartup(e);
 
-            Window window = new();
+            KakaoWindow window = new();
+
             window.Show();
         }
     }
