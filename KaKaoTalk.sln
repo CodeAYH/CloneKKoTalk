@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kakao", "KaKaoTalk\Kakao.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaKao.Forms", "KaKao.Forms\KaKao.Forms.csproj", "{D44DB72C-692F-4D74-A1B7-95BE592A7759}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Studio", "Studio", "{C61A220C-0CC4-4805-906C-C30586EDC1D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Partial", "Partial", "{07E1728F-C636-442F-9DB0-A2EBBBF07A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaKao.Login", "KaKao.Login\KaKao.Login.csproj", "{24273AF8-4F86-4FF3-9A17-F24C20A2229B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,18 @@ Global
 		{D44DB72C-692F-4D74-A1B7-95BE592A7759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D44DB72C-692F-4D74-A1B7-95BE592A7759}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D44DB72C-692F-4D74-A1B7-95BE592A7759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24273AF8-4F86-4FF3-9A17-F24C20A2229B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24273AF8-4F86-4FF3-9A17-F24C20A2229B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24273AF8-4F86-4FF3-9A17-F24C20A2229B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24273AF8-4F86-4FF3-9A17-F24C20A2229B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0726C83-9D89-4628-8520-0A4FE51955B7} = {C61A220C-0CC4-4805-906C-C30586EDC1D0}
+		{D44DB72C-692F-4D74-A1B7-95BE592A7759} = {07E1728F-C636-442F-9DB0-A2EBBBF07A25}
+		{24273AF8-4F86-4FF3-9A17-F24C20A2229B} = {07E1728F-C636-442F-9DB0-A2EBBBF07A25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ADC01144-B2E0-4197-B55C-18BE40FC066A}

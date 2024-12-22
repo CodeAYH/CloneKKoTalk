@@ -1,17 +1,15 @@
-﻿using KaKao.Forms.UI.Views;
+﻿using Jamesnet.Wpf.Controls;
+using KaKao.Forms.UI.Views;
 using System.Windows;
 
 namespace Kakao
 {
-    class App : Application
+    class App : JamesApplication
     {
-        protected override void OnStartup(StartupEventArgs e)
+        protected override Window CreateShell()
         {
-            base.OnStartup(e);
-
-            KakaoWindow window = new();
-
-            window.Show();
+            return new KakaoWindow();
         }
+
     }
 }
